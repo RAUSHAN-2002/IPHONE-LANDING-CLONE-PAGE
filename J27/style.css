@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #FBFBFD;
+    overflow: hidden;
+}
+#nav{
+    padding: 0 300px;
+    color: rgb(146, 143, 143);
+    width: 100%;
+    height: 40px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(146, 143, 143);
+}
+#nav a:hover{
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1),0.3s;
+    cursor: pointer;
+}
+#nav i:hover{
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1),0.3s;
+    cursor: pointer;
+}
+#nav img{
+    height: 40%;
+}
+#hero{
+    position: relative;
+}
+#text{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    font-size: 30px;
+}
+#text h4{
+    font-weight: 400;
+}
+#links{
+    color: #2992F7;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#links i{
+    position: absolute;
+    top: 2px;
+    font-size: 28px;
+}
+#hero img{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#iphone13{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background-color: #35283C;
+    overflow: hidden;
+}
+#text13{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+#text13 h4{
+    font-weight: 400;
+    color: #F5BCE4;
+}
+#links13{
+    color: #2992F7;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    position: absolute;
+    top: 165px;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 99;
+}
+#links13 i{
+    position: absolute;
+    top: 2px;
+    font-size: 28px;
+}
+#iphone13 img{
+    position: absolute;
+    bottom: -1%;
+    height: 380px;
+    transform: translate(-50%,0);
+    left: 50%;
+}
+#watch{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    background-color: black;
+}
+#watch img{
+    position: absolute;
+    bottom: 0%;
+    height: 440px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#textw{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    z-index: 99;
+}
+#textw h4{
+    font-weight: 400;
+}
+#linksw{
+    color: #2992F7;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 99;
+}
+#linksw i{
+    position: absolute;
+    top: 2px;
+    font-size: 28px;
+}
+#watchimg{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding:0 15px;
+    justify-content: space-between;
+}
+#watch7{
+    width: 49.5%;
+    height: 100%;
+    background-color: #F5F5F7;
+    position: relative;
+}
+#watch7 img{
+    position: absolute;
+    height: 55%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#wtext{
+    position: absolute;
+    display: flex;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50% , 0);
+    font-size: 23px;
+}
+#wtext i{
+    font-size: 35px;
+}
+#watch7 h6{
+    position: absolute;
+    color: #D28557;
+    font-size: 12px;
+    top: 5%;
+    transform: translate(-50% , 0);
+    left: 50%;
+}
+#watch7 h3{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50% , 0);
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #D3474D;
+    font-weight: 700;
+}
+#watch7 h4{
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50% , 0);
+    font-size: 20px;
+    font-weight: 400;
+}
+#linksw7{
+    color: #3082D4;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#linksw7 i{
+    position: absolute;
+    top: 1px;
+    font-size: 22px;
+}
+#mimage{
+    position: relative;
+    width: 49.5%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://images.iphonephotographyschool.com/25477/1120/flower-macro-photography.jpg);
+}
+#mtext h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 40px;
+    font-weight: 600;
+}
+#mtext h3{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    font-size: 21px;
+    transform: translate(-50%,0);
+    font-weight: 400;
+}
+#mlinks{
+    font-size: 18px;
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    transform: translate(-50%,0); 
+}
+#mlinks i{
+    position: absolute;
+    top: 1px;
+    font-size: 20px;
+}
+#giftfit{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding:0 15px;
+    justify-content: space-between;
+}
+#gift{
+    width: 49.5%;
+    height: 100%;
+    background-color:#F8F1F8;
+    position: relative;
+    overflow: hidden;
+}
+#gift img{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%,0);
+}
+#gift h1{
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%,0);
+    text-align: center;
+    color: #602D62;
+}
+#gift h3{
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    transform: translate(-50%,0);
+    color: #602D62;
+}
+#glinks{
+    font-size: 18px;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%,0); 
+    color: #277CD3;
+}
+#glinks i{
+    position: absolute;
+    top: 1px;
+    font-size: 20px;
+}
+#fit{
+    width: 49.5%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}    
+#fit img{
+    position: absolute;
+    bottom: -30%;
+    transform: translate(-50%,0);
+    left: 50%;
+    height: 100%;
+}
+#fit h1{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#fit h2{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#flinks{
+    font-size: 18px;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%,0); 
+    color: #277CD3;
+}
+#flinks i{
+    position: absolute;
+    top: 1px;
+    font-size: 20px;
+}
+#prtv{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding:0 15px;
+    justify-content: space-between;
+}
+#pr{
+    width: 49.5%;
+    height: 100%;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+}
+#pr img{
+    position: absolute;
+    height: 120px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#pr h1{
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 70px;
+}
+#pr h3{
+    position: absolute;
+    color: rgb(99, 96, 96);
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-weight: 600;
+}
+#plinks{
+    font-size: 18px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%,0); 
+    color: #277CD3;
+}
+#plinks i{
+    position: absolute;
+    top: 1px;
+    font-size: 20px;
+}
+#tv{
+    width: 49.5%;
+    height: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/846/216/1006/godzilla-movies-movie-poster-godzilla-king-of-the-monsters-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#ttext{
+    display: flex;
+}
+#ttext{
+    position: absolute;
+    font-size: 40px;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#tlinks{
+    font-size: 25px;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%,0); 
+}
+#tlinks i{
+    position: absolute;
+    top: 1px;
+    font-size: 30px;
+}
+
+
